@@ -1,0 +1,83 @@
+body{
+background-color: white;
+}
+.caution {
+	width: 80px;
+	height: 80px;
+	background-image: url('warning.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 2;
+	margin-top: 5em;
+}
+.logo img{
+	-webkit-width: 31%;
+	-webkit-height: 31%;
+	-webkit-background-image: url('logo-2.png');
+	-webkit-background-size: 100% 100%;
+	-webkit-background-repeat: no-repeat;
+	-webkit-z-index: 3;
+	-webkit-margin-bottom: -3em;
+}
+.letras p {
+	margin-top: 1em;
+  font-size: 2.5em;
+  font-family: "Homer Simpson", cursive;
+}
+.letras2 p {
+	margin-top: 1em;
+  font-size: 1.8em;
+  font-family: "Homer Simpson", cursive;
+}
+.estilo img{
+	height: 48px;
+	margin-bottom: -15px;
+}
+
+@media (max-width: 600px){
+
+	.caution {
+	width: 50px;
+	height: 50px;
+	background-image: url('warning.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 2;
+	margin-top: 2em;
+	}
+	.logo img{
+	-webkit-width: 61%;
+	-webkit-height: 61%;
+	-webkit-background-image: url('logo-2.png');
+	-webkit-background-size: 100% 100%;
+	-webkit-background-repeat: no-repeat;
+	-webkit-z-index: 3;
+	-webkit-margin-bottom: 2em;
+	}
+	.letras p {
+	margin-top: 1em;
+  	font-size: 1.5em;
+  	font-family: "Homer Simpson", cursive;
+	}
+	.letras2 p {
+	margin-top: 1em;
+  	font-size: 1em;
+  	font-family: "Homer Simpson", cursive;
+	}
+	.estilo img{
+	height: 18px;
+	margin-bottom: -3px;
+}
+}
+
+@media (min-width: 600px) and (max-width: 992px){
+	.caution {
+	width: 100px;
+	height: 100px;
+	background-image: url('warning.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 2;
+	margin-top: 3em;
+	}
+}
